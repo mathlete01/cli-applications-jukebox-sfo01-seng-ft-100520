@@ -22,6 +22,7 @@ def help
   puts"- exit : exits this program"
 end
 
+=begin
 def list()
   songs.each_with_index do
     puts "#{index+1}. #{songs[index]}"
@@ -36,3 +37,4 @@ def run()
 end
 
 puts "Please enter a command:"
+=end
