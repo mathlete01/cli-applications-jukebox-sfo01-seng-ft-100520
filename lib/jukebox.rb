@@ -17,3 +17,8 @@ puts"- list : displays a list of songs you can play"
 puts"- play : lets you choose a song to play"
 puts"- exit : exits this program"
 end
+
+def list do
+  songs.count do |track|
+    puts songs[track]
+end
