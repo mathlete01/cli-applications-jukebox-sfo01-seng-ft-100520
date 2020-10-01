@@ -19,6 +19,10 @@ def help
 end
 
 def list
+  num = 0
+  while num < songs.length do
+    puts "#{num}. #{songs[num]}"
+  end
   songs.count do |track|
     puts songs[track]
   end
