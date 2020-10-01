@@ -19,11 +19,12 @@ def help
 end
 
 def list
+  puts "songs = #{songs}"
   num = 0
-  while num < songs.length do
-    puts "#{num}. #{songs[num]}"
-    num += 1
-  end
+  #while num < songs.length do
+  #  puts "#{num}. #{songs[num]}"
+  #  num += 1
+  #end
 end
 
 #puts "Please enter a command"
