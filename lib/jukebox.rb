@@ -23,9 +23,6 @@ def list
   while num < songs.length do
     puts "#{num}. #{songs[num]}"
   end
-  songs.count do |track|
-    puts songs[track]
-  end
 end
 
 puts "Please enter a command"
