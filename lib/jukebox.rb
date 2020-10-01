@@ -12,7 +12,7 @@ $songs = [
 ]
 =end
 
-$foo = "hello"
+foo = "hello"
 
 def help
   puts"  I accept the following commands:";
@@ -31,7 +31,7 @@ end
 
 #puts "Please enter a command"
 
-list()
+#list()
 #command = gets.strip
 
 #run(command)
