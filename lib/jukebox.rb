@@ -22,6 +22,7 @@ def list
   num = 0
   while num < songs.length do
     puts "#{num}. #{songs[num]}"
+    num += 1
   end
 end
 
