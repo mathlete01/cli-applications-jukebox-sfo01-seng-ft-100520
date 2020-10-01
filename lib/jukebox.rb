@@ -29,7 +29,7 @@ end
 
 #puts "Please enter a command"
 
-list()
+puts list()
 #command = gets.strip
 
 #run(command)
