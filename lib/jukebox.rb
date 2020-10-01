@@ -23,15 +23,13 @@ def help
 end
 
 def list()
-  puts foo
-  #songs.each_with_index do
-  #  puts "#{index+1}. #{songs[index]}"
-  #end
+  songs.each_with_index do
+    puts "#{index+1}. #{songs[index]}"
+  end
 end
 
-#puts "Please enter a command"
-
-#list()
-#command = gets.strip
-
-#run(command)
+def run
+  puts "Please enter a command:"
+  command = gets.strip
+  puts command
+end
