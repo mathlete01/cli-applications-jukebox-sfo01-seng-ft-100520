@@ -28,4 +28,4 @@ puts "Please enter a command"
 
 command = gets.strip
 
-command()
+run(command)
