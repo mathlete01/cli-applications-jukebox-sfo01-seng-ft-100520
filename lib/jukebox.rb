@@ -20,9 +20,9 @@ def help
 end
 
 
-def list()
-  songs.each_with_index do
-    puts "#{index+1}. #{songs[index]}"
+def list(song_list)
+  song_list.each_with_index do
+    puts "#{index+1}. #{song_list[index]}"
   end
 end
 
