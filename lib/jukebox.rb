@@ -23,3 +23,5 @@ def list
     puts songs[track]
   end
 end
+
+puts "Please enter a command"
