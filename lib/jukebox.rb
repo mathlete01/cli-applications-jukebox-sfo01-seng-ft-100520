@@ -1,4 +1,4 @@
-songs = [
+$songs = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
   "Sufjan Stevens - Too Much",
@@ -9,8 +9,6 @@ songs = [
   "Harry Chapin - Cats in the Cradle",
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
-
-
 
 def help
   puts"  I accept the following commands:";
@@ -29,8 +27,7 @@ end
 
 #puts "Please enter a command"
 
-list()
-#puts list()
+puts list()
 #command = gets.strip
 
 #run(command)
