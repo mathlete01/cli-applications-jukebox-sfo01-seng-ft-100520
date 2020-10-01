@@ -10,6 +10,8 @@ $songs = [
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 
+foo = "hello"
+
 def help
   puts"  I accept the following commands:";
   puts"- help : displays this help message";
@@ -19,7 +21,7 @@ def help
 end
 
 def list()
-  puts songs
+  puts foo
   #songs.each_with_index do
   #  puts "#{index+1}. #{songs[index]}"
   #end
