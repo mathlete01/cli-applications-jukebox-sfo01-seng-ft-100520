@@ -28,12 +28,10 @@ def list()
   end
 end
 
-def run
+def run(foo)
   puts "Please enter a command:"
   while command != "exit" do
     command = gets.strip
     puts command
   end
 end
-
-run
