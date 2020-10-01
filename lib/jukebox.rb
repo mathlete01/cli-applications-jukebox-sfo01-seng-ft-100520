@@ -19,12 +19,9 @@ def help
 end
 
 def list()
-  puts "songs = #{songs}"
-  num = 0
-  #while num < songs.length do
-  #  puts "#{num}. #{songs[num]}"
-  #  num += 1
-  #end
+  songs.each_with_index do
+    puts "#{index+1}. songs[index]"
+  end
 end
 
 #puts "Please enter a command"
