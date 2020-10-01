@@ -10,7 +10,7 @@ songs = [
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 
-puts songs
+
 
 def help
   puts"  I accept the following commands:";
@@ -21,9 +21,10 @@ def help
 end
 
 def list()
-  songs.each_with_index do
-    puts "#{index+1}. #{songs[index]}"
-  end
+  puts songs
+  #songs.each_with_index do
+  #  puts "#{index+1}. #{songs[index]}"
+  #end
 end
 
 #puts "Please enter a command"
