@@ -18,7 +18,7 @@ def help
   puts"- exit : exits this program"
 end
 
-def list
+def list()
   puts "songs = #{songs}"
   num = 0
   #while num < songs.length do
