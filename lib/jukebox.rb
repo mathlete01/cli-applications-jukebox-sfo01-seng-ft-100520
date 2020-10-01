@@ -20,7 +20,7 @@ end
 
 def list()
   songs.each_with_index do
-    puts "#{index+1}. songs[index]"
+    puts "#{index+1}. #{songs[index]}"
   end
 end
 
