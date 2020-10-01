@@ -18,7 +18,7 @@ def help
   puts"- exit : exits this program"
 end
 
-def list do
+def list 
   songs.count do |track|
     puts songs[track]
 end
