@@ -30,6 +30,8 @@ end
 
 def run
   puts "Please enter a command:"
-  command = gets.strip
-  puts command
+  while command != "exit" do
+    command = gets.strip
+    puts command
+  end
 end
