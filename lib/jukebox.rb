@@ -26,7 +26,7 @@ def list
   end
 end
 
-puts "Please enter a command"
+#puts "Please enter a command"
 
 list()
 #command = gets.strip
