@@ -35,3 +35,5 @@ def run
     puts command
   end
 end
+
+run
